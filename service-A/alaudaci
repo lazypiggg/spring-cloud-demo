@@ -1,0 +1,10 @@
+
+    version: "0.1.0"
+    pre_ci_boot: 
+        image: index.alauda.cn/demo100/piggyjava 
+        tag: latest
+
+    ci:
+        - cp  Service-A/settings.xml  /etc/maven/
+        - cd  Service-A
+        - mvn clean package 
