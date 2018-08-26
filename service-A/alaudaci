@@ -5,6 +5,6 @@
         tag: latest
 
     ci:
-        - cp  Service-A/settings.xml  /etc/maven/
-        - cd  Service-A
+        - cp  service-A/settings.xml  /etc/maven/
+        - cd  service-A
         - mvn clean package 
