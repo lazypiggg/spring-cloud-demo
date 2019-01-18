@@ -36,6 +36,12 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-zipkin</artifactId>
         </dependency>
+	<dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.15-bin</version>
+            <scope>runtime</scope>
+        </dependency>
 	</dependencies>
 
 	<dependencyManagement>
